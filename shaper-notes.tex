@@ -1,0 +1,20 @@
+\documentclass{article}
+
+\begin{document}
+
+\[\omega_d = \omega_0 \sqrt{1 - \zeta^2} \]
+%\[\theta_1 = \omega_d t_1 \]
+%\[\theta_2 = \omega_d t_2 \]
+\[f = A_1 e^{-\zeta \omega_d t_1} \sin{(\omega_d t + \omega_d t_1)}\]
+\[g = A_2 e^{-\zeta \omega_d t_2} \sin{(\omega_d t + \omega_d t_2)}\]
+\[f = A_1 e^{-\zeta \omega_d t_1} \sin{(\omega_d t)} \cos{(\omega_d t_1)} + A_1 e^{-\zeta \omega_d t_1} \cos{(\omega_d t)} \sin{(\omega_d t_1)} \]
+\[g = A_2 e^{-\zeta \omega_d t_2} \sin{(\omega_d t)} \cos{(\omega_d t_2)} + A_2 e^{-\zeta \omega_d t_2} \cos{(\omega_d t)} \sin{(\omega_d t_2)} \]
+\[u_1 = A_1 e^{-\zeta \omega_d t_1} \cos{(\omega_d t_1)} \]
+\[v_1 = A_1 e^{-\zeta \omega_d t_1} \sin{(\omega_d t_1)} \]
+\[u_2 = A_2 e^{-\zeta \omega_d t_2} \cos{(\omega_d t_2)} \]
+\[v_2 = A_2 e^{-\zeta \omega_d t_2} \sin{(\omega_d t_2)} \]
+\[u_1 \sin{(\omega_d t)} + v_1 \cos{(\omega_d t)} + u_2 \sin{(\omega_d t)} + v_2 \cos{(\omega_d t)} = (u_1 + u_2) \sin{(\omega_d t)} + (v_1 + v_2) \cos{(\omega_d t)}\]
+\[A_{amp} = \sqrt{(u_1 + u_2)^2 + (v_1 + v_2)^2} \]
+\[A_{amp} = \sqrt{(\sum_{i=1}^{n} {u_i})^2 + (\sum_{i=1}^{n} {v_i})^2} \]
+
+\end{document}
