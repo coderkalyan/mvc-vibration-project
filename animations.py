@@ -2,12 +2,12 @@ from manim import *
 #from math import *
 import numpy as np
 
-class HarmoningMotion(Scene):
+class HarmonicMotion(Scene):
     def construct(self):
         amp = 1
         omega = 1
         zeta = 0.1
-        omega_d = omgea * np.sqrt(1 - zeta**2)
+        omega_d = omega * np.sqrt(1 - zeta**2)
 
         axes = Axes(
                 x_range=[-1, 7 * np.pi, np.pi / omega_d],
